@@ -54,3 +54,39 @@ Consul est une solution open-source développée par HashiCorp, spécialisée da
 - Gestion des configurations et intégration avec des outils comme Kubernetes.  
 - Sécurisation des communications via des certificats TLS.  
 - Surveillance de la santé des services et notifications proactives.  
+
+---
+
+## 7. [Learning Google-Fu (Google Directives pour Penetration Testers)](https://jaimelightfoot.com/blog/learning-google-fu-google-directives-for-penetration-testers/)  
+**Catégorie : Techniques de recherche avancée**  
+Cet article explore des directives et astuces pour exploiter la puissance des moteurs de recherche, en particulier Google, dans le cadre de tests de pénétration et de collecte d'informations. Concepts abordés :  
+- Utilisation avancée des opérateurs de recherche (site:, intitle:, filetype:).  
+- Identification de données sensibles exposées publiquement.  
+- Techniques spécifiques pour la reconnaissance et l'énumération.
+
+---
+
+## 8. [Techniques Google-Fu](https://wiki.hacksoc.co.uk/help-guides/techniques/google-fu)  
+**Catégorie : Techniques de recherche avancée**  
+Ce guide fournit une référence rapide sur les techniques "Google-Fu" pour rechercher efficacement des informations utiles dans les domaines de la cybersécurité et de l'éthique informatique. Points clés :  
+- Recherche d'informations publiques sensibles.  
+- Exploration de fichiers et répertoires exposés.  
+- Utilisation créative d'opérateurs pour optimiser les résultats.  
+
+---
+
+## 9. [Pulumi](https://www.pulumi.com/)  
+**Catégorie : Infrastructure as Code (IaC)**  
+Pulumi est une plateforme d'Infrastructure as Code (IaC) qui permet aux développeurs de déployer et de gérer des infrastructures cloud avec des langages de programmation familiers comme Python, JavaScript ou Go. Points forts :  
+- Déploiement multi-cloud unifié.  
+- Intégration avec des outils DevOps existants.  
+- Automatisation et gestion des configurations complexes.  
+
+---
+
+## 10. [Golden Ticket Attack](https://www.crowdstrike.com/fr-fr/cybersecurity-101/cyberattacks/golden-ticket-attack/)  
+**Catégorie : Analyse des cyberattaques**  
+Cette ressource explique en détail les **Golden Ticket Attacks**, une technique avancée utilisée pour compromettre Active Directory. Points abordés :  
+- Fonctionnement des attaques basées sur les tickets Kerberos.  
+- Identification des signes d'attaque.  
+- Stratégies pour détecter et prévenir ces menaces dans des environnements Windows. 
