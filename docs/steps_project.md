@@ -9,11 +9,11 @@
 - ⚠️ Ajoutez une analyse de sécurité incluant les risques identifiés (interne et cloud).
 
 ### Plan de veille technologique et réglementaire :
-- 🔄 Décrivez les outils utilisés (Feedly, Prometheus).
+- ✅ Décrivez les outils utilisés (Feedly, Prometheus).
 - ✅ Ajoutez un exemple de technologie ou norme découverte grâce à la veille.
 
 ### Description et faisabilité des solutions :
-- Incluez les résultats d’une analyse coûts-avantages pour Kubernetes et l’IaC.
+- 🔄 Incluez les résultats d’une analyse coûts-avantages pour Kubernetes et l’IaC.
 
 ### Évaluation et contrôle :
 - Ajoutez un tableau de suivi des KPIs post-migration.
