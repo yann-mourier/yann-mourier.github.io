@@ -13,15 +13,14 @@
 - ✅ Ajoutez un exemple de technologie ou norme découverte grâce à la veille.
 
 ### Description et faisabilité des solutions :
-- 🔄 Incluez les résultats d’une analyse coûts-avantages pour Kubernetes et l’IaC.
 
 ### Évaluation et contrôle :
-- Ajoutez un tableau de suivi des KPIs post-migration.
+- ✅ Ajoutez un tableau de suivi des KPIs post-migration.
 
 ## Jour 2 : Bloc 2 - Construire la solution technique
 
 ### Élaboration de l’architecture évolutive :
-- Intégrez un diagramme d’architecture détaillé (avant/après).
+- 🔄 Intégrez un diagramme d’architecture détaillé (avant/après).
 - Mentionnez les objectifs RSE (réduction des coûts énergétiques via la containerisation).
 
 ### Maintenance et surveillance :
