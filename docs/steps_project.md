@@ -101,5 +101,5 @@
 ## Légende
 
 - ✅ : Tâche terminée
-- ❌ : Tâche non réalisée
 - 🔄 : Tâche en cours
+- ⚠️ : Tâche difficile à voir plus tard
