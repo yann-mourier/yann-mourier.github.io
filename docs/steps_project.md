@@ -5,8 +5,8 @@
 ## Jour 1 : Bloc 1 - Organisation du projet systèmes et réseaux
 
 ### Analyse approfondie de l’architecture existante :
-- Complétez avec des données spécifiques issues de votre audit (performances, licences, durabilité).
-- Ajoutez une analyse de sécurité incluant les risques identifiés (interne et cloud).
+- ⚠️ Complétez avec des données spécifiques issues de votre audit (performances, licences, durabilité).
+- ⚠️ Ajoutez une analyse de sécurité incluant les risques identifiés (interne et cloud).
 
 ### Plan de veille technologique et réglementaire :
 - 🔄 Décrivez les outils utilisés (Feedly, Prometheus).
