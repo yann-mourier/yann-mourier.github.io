@@ -1,4 +1,4 @@
-# Base de Connaissance
+# Acceuil
 
 Bienvenue dans ma **Base de Connaissance**. Ce site a été conçu pour regrouper toutes les informations que j'ai collectées sur les questions que je me suis posées et les problématiques que j'ai rencontrées. L'objectif est de partager ces connaissances afin de faciliter la recherche de solutions et d'apporter des réponses aux défis rencontrés.
 
