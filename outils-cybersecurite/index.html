@@ -1,0 +1,889 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.yannmourier.fr/outils-cybersecurite/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Outils de Cybersécurité - Base de connnaissance</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#outils-de-cybersecurite" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Base de connnaissance" class="md-header__button md-logo" aria-label="Base de connnaissance" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Base de connnaissance
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Outils de Cybersécurité
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Base de connnaissance" class="md-nav__button md-logo" aria-label="Base de connnaissance" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Base de connnaissance
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acceuil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Outils de Cybersécurité
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Outils de Cybersécurité
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-simulation-de-phishing" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Simulation de Phishing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Simulation de Phishing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gophish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gophish
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-gestion-des-vulnerabilites" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Gestion des Vulnérabilités
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Gestion des Vulnérabilités">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cve-common-vulnerabilities-and-exposures" class="md-nav__link">
+    <span class="md-ellipsis">
+      CVE - Common Vulnerabilities and Exposures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-supervision-reseau-et-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Supervision Réseau et Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Supervision Réseau et Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ngeniusone" class="md-nav__link">
+    <span class="md-ellipsis">
+      nGeniusONE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-securite-du-reseau" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Sécurité du Réseau
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Sécurité du Réseau">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opnsense" class="md-nav__link">
+    <span class="md-ellipsis">
+      OPNsense
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-detection-et-prevention-des-intrusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Détection et Prévention des Intrusions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Détection et Prévention des Intrusions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suricata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suricata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-gestion-des-services-et-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Gestion des Services et Configurations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Gestion des Services et Configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consul" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consul
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-techniques-de-recherche-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Techniques de Recherche Avancée
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Techniques de Recherche Avancée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-google-fu-google-directives-pour-penetration-testers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Google-Fu (Google Directives pour Penetration Testers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#techniques-google-fu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Techniques Google-Fu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-infrastructure-as-code-iac" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Infrastructure as Code (IaC)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Infrastructure as Code (IaC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pulumi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pulumi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-analyse-des-cyberattaques" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Analyse des Cyberattaques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Analyse des Cyberattaques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#golden-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      Golden Ticket Attack
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-simulation-de-phishing" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Simulation de Phishing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Simulation de Phishing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gophish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gophish
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-gestion-des-vulnerabilites" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Gestion des Vulnérabilités
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Gestion des Vulnérabilités">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cve-common-vulnerabilities-and-exposures" class="md-nav__link">
+    <span class="md-ellipsis">
+      CVE - Common Vulnerabilities and Exposures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-supervision-reseau-et-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Supervision Réseau et Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Supervision Réseau et Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ngeniusone" class="md-nav__link">
+    <span class="md-ellipsis">
+      nGeniusONE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-securite-du-reseau" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Sécurité du Réseau
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Sécurité du Réseau">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opnsense" class="md-nav__link">
+    <span class="md-ellipsis">
+      OPNsense
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-detection-et-prevention-des-intrusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Détection et Prévention des Intrusions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Détection et Prévention des Intrusions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suricata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suricata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-gestion-des-services-et-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Gestion des Services et Configurations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Gestion des Services et Configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consul" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consul
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-techniques-de-recherche-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Techniques de Recherche Avancée
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Techniques de Recherche Avancée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-google-fu-google-directives-pour-penetration-testers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Google-Fu (Google Directives pour Penetration Testers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#techniques-google-fu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Techniques Google-Fu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-infrastructure-as-code-iac" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Infrastructure as Code (IaC)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Infrastructure as Code (IaC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pulumi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pulumi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-analyse-des-cyberattaques" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Analyse des Cyberattaques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Analyse des Cyberattaques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#golden-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      Golden Ticket Attack
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="outils-de-cybersecurite">Outils de Cybersécurité</h1>
+<p>Cette page rassemble une sélection d'outils et de ressources essentiels dans le domaine de la cybersécurité. Ils couvrent des aspects variés tels que la simulation de phishing, la détection d'intrusions, l'analyse de vulnérabilités et bien plus encore.</p>
+<hr />
+<h2 id="1-simulation-de-phishing">1. Simulation de Phishing</h2>
+<h3 id="gophish"><a href="https://getgophish.com/">Gophish</a></h3>
+<p>Gophish est une plateforme open-source de simulation d'attaques de phishing. Elle permet aux organisations de former leurs employés à identifier les tentatives de phishing tout en évaluant leur niveau de sensibilisation.<br />
+<strong>Fonctionnalités :</strong>
+- Création de campagnes de phishing personnalisées.
+- Collecte et analyse des réponses.
+- Interface utilisateur intuitive.</p>
+<hr />
+<h2 id="2-gestion-des-vulnerabilites">2. Gestion des Vulnérabilités</h2>
+<h3 id="cve-common-vulnerabilities-and-exposures"><a href="https://cve.mitre.org/">CVE - Common Vulnerabilities and Exposures</a></h3>
+<p>Le système CVE est un répertoire centralisé qui répertorie les vulnérabilités connues dans les logiciels et matériels. Maintenu par MITRE, il permet une gestion efficace des vulnérabilités avec des identifiants uniques pour chaque élément.<br />
+<strong>Fonctionnalités :</strong>
+- Communication facile entre les outils de sécurité.
+- Priorisation des corrections.
+- Amélioration de la réponse aux menaces.</p>
+<hr />
+<h2 id="3-supervision-reseau-et-performance">3. Supervision Réseau et Performance</h2>
+<h3 id="ngeniusone"><a href="https://www.netscout.com/product/ngeniusone-solution">nGeniusONE</a></h3>
+<p>nGeniusONE est une solution avancée de supervision des performances réseau qui permet de surveiller en temps réel les applications, services et infrastructures.<br />
+<strong>Fonctionnalités :</strong>
+- Diagnostic des anomalies réseau.
+- Analyse des performances des applications.
+- Réduction des temps d'arrêt grâce à des alertes proactives.</p>
+<hr />
+<h2 id="4-securite-du-reseau">4. Sécurité du Réseau</h2>
+<h3 id="opnsense"><a href="https://opnsense.org/">OPNsense</a></h3>
+<p>OPNsense est une distribution open-source de pare-feu et de routeur basée sur FreeBSD. Il est particulièrement apprécié pour sa flexibilité, sa sécurité et ses fonctionnalités robustes.<br />
+<strong>Fonctionnalités :</strong>
+- VPN (IPsec, OpenVPN).
+- Filtrage de contenu et proxy.
+- Interfaces web conviviales pour la gestion.</p>
+<hr />
+<h2 id="5-detection-et-prevention-des-intrusions">5. Détection et Prévention des Intrusions</h2>
+<h3 id="suricata"><a href="https://suricata.io/">Suricata</a></h3>
+<p>Suricata est un moteur open-source de détection et prévention des intrusions (IDS/IPS) qui analyse le trafic réseau en temps réel pour détecter des comportements malveillants.<br />
+<strong>Fonctionnalités :</strong>
+- Support natif des protocoles (HTTP, TLS, etc.).
+- Intégration avec des outils comme Zeek et Elasticsearch.
+- Haute performance avec des capacités multi-threading.</p>
+<hr />
+<h2 id="6-gestion-des-services-et-configurations">6. Gestion des Services et Configurations</h2>
+<h3 id="consul"><a href="https://www.consul.io/">Consul</a></h3>
+<p>Consul est une solution open-source développée par HashiCorp pour la gestion des services et des configurations dans des infrastructures distribuées.<br />
+<strong>Fonctionnalités :</strong>
+- Découverte de services automatique.
+- Gestion des configurations et intégration avec Kubernetes.
+- Sécurisation des communications via des certificats TLS.</p>
+<hr />
+<h2 id="7-techniques-de-recherche-avancee">7. Techniques de Recherche Avancée</h2>
+<h3 id="learning-google-fu-google-directives-pour-penetration-testers"><a href="https://jaimelightfoot.com/blog/learning-google-fu-google-directives-for-penetration-testers/">Learning Google-Fu (Google Directives pour Penetration Testers)</a></h3>
+<p>Cet article explore des directives pour exploiter la puissance des moteurs de recherche dans le cadre de tests de pénétration et de collecte d’informations.<br />
+<strong>Concepts abordés :</strong>
+- Utilisation avancée des opérateurs de recherche (site:, intitle:, filetype:).
+- Identification de données sensibles exposées publiquement.</p>
+<h3 id="techniques-google-fu"><a href="https://wiki.hacksoc.co.uk/help-guides/techniques/google-fu">Techniques Google-Fu</a></h3>
+<p>Un guide pratique pour utiliser efficacement Google dans le domaine de la cybersécurité.<br />
+<strong>Techniques abordées :</strong>
+- Recherche d'informations publiques sensibles.
+- Exploration de fichiers et répertoires exposés.</p>
+<hr />
+<h2 id="8-infrastructure-as-code-iac">8. Infrastructure as Code (IaC)</h2>
+<h3 id="pulumi"><a href="https://www.pulumi.com/">Pulumi</a></h3>
+<p>Pulumi permet aux développeurs de déployer et gérer des infrastructures cloud avec des langages de programmation familiers comme Python, JavaScript ou Go.<br />
+<strong>Fonctionnalités :</strong>
+- Déploiement multi-cloud unifié.
+- Intégration avec des outils DevOps existants.
+- Automatisation des configurations complexes.</p>
+<hr />
+<h2 id="9-analyse-des-cyberattaques">9. Analyse des Cyberattaques</h2>
+<h3 id="golden-ticket-attack"><a href="https://www.crowdstrike.com/fr-fr/cybersecurity-101/cyberattacks/golden-ticket-attack/">Golden Ticket Attack</a></h3>
+<p>Ce lien explique en détail les attaques par "Golden Ticket", une méthode utilisée pour compromettre Active Directory.<br />
+<strong>Points abordés :</strong>
+- Fonctionnement des attaques basées sur les tickets Kerberos.
+- Identification des signes d'attaque.
+- Stratégies pour détecter et prévenir ces menaces.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
