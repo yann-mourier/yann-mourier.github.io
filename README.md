@@ -1,32 +1,81 @@
-# Base de Connaissance
+# Yann Mourier — Personal Website
 
-Bienvenue dans le dépôt GitHub de la **Base de Connaissance**. Ce projet a pour but de centraliser des ressources, des outils et des informations sur divers sujets et domaines d'intérêt. L'objectif est de créer une ressource en constante évolution qui puisse aider à résoudre des problématiques et à partager des connaissances.
+Site personnel statique de Yann Mourier.
 
-## Objectif
+Une page simple et élégante pour présenter mes liens professionnels,
+mes projets et mes expérimentations.
 
-Ce projet regroupe des informations et des outils pour :
+## ✨ Contenu
 
-- Explorer des concepts et des pratiques dans divers domaines.
-- Partager des ressources utiles et pratiques pour résoudre des problèmes courants.
-- Mettre à disposition des contenus régulièrement mis à jour et enrichis par la communauté.
+- Présentation personnelle
+- LinkedIn
+- Email
+- GitHub
+- Liste de projets
+- Section contact
+- Favicon personnalisé
 
-## Contribution
+## 🛠️ Technologies
 
-Les contributions sont les bienvenues pour enrichir cette base de connaissance. Vous pouvez ajouter de nouveaux outils, partager des ressources, améliorer la documentation, ou corriger des erreurs.
+- HTML5
+- CSS3
+- SVG
 
-### Comment contribuer :
-1. Forkez ce dépôt.
-2. Créez une branche pour votre modification.
-3. Soumettez une pull request pour révision.
+Aucun framework ou dépendance externe.
 
-## Contact
+## 📁 Structure
 
-Si vous avez des questions, des suggestions ou des remarques, vous pouvez me contacter via :
-- Email : [contact@yannmourier.fr](mailto:contact@yannmourier.fr)
-- GitHub : [Proposer une modification](https://github.com/yann-mourier/yann-mourier.github.io/pulls)
+```text
+.
+├── index.html
+├── style.css
+├── favicon.svg
+└── README.md
+````
 
-## License
+## 🚀 Utilisation
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Le site étant entièrement statique, il suffit d'ouvrir :
 
-Merci de contribuer à enrichir cette ressource pour la communauté !
+```text
+index.html
+```
+
+dans un navigateur.
+
+Il peut également être hébergé facilement avec :
+
+* GitHub Pages
+* un serveur Nginx/Apache
+* un hébergement web classique
+* mon homelab
+
+## 📌 Ajouter un projet
+
+Les projets sont directement définis dans `index.html`.
+
+Pour ajouter un projet, dupliquer un bloc :
+
+```html
+<article class="project">
+    ...
+</article>
+```
+
+puis modifier :
+
+* le nom du projet
+* sa description
+* les technologies utilisées
+* son statut
+* le lien vers le projet
+
+## 📬 Contact
+
+* LinkedIn : https://www.linkedin.com/in/yannmourier/
+* Email : [contact@yannmourier.fr](mailto:contact@yannmourier.fr)
+* GitHub : https://github.com/yann-mourier
+
+## 📄 Licence
+
+Projet personnel.
